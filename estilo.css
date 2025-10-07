@@ -1,0 +1,33 @@
+/*Aplica a pagina inserir*/
+body{
+    margin: 0; /*remove as margens padrao*/
+    padding: 0;/*remove o espaçamentopadrao*/
+
+    height: 100vh; /**/
+    width: 100vh;/**/
+
+    background-image: url(pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg); /**/
+    background-size: cover; /**/
+    background-position: center;/**/
+    background-repeat: no-repeat; /**/
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/*Estilo para o container GRID*/
+.container{
+    display: grid; /*ativa a grid layout*/
+
+    grid-template-columns: repeat(3,1fr); /*cria 3 colunas com larguras iguais*/
+
+    gap: 10px;
+    padding: 20px;
+}
+/*Estilo para o item dentro da GRID*/
+.item{
+    background-color: blueviolet;
+    color: lightblue;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.5cm;
+    border-radius: 8px;
+}
+
